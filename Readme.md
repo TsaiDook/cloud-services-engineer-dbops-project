@@ -36,11 +36,11 @@ ALTER SCHEMA public OWNER TO dbops_user;
 Для workflow нужны секреты:
 
 ```text
-DB_HOST=89.169.139.72
-DB_PORT=5432
-DB_NAME=store
-DB_USER=dbops_user
-DB_PASSWORD=dbops_password
+DB_HOST=51.250.35.202
+DB_PORT=5433
+DB_NAME=store_default
+DB_USER=user
+DB_PASSWORD=password
 ```
 
 ## Миграции
